@@ -1,0 +1,22 @@
+span.ri-image-wrapper,
+a.ri-image-wrapper {
+	display: image_display;
+}
+span.ri-image-wrapper,
+a.ri-image-wrapper,
+a.ri-image-wrapper:active,
+a.ri-image-wrapper:visited,
+a.ri-image-wrapper:hover {
+	margin: 0 1em 1em 0 !important;
+	text-decoration: none !important;
+}
+.ri-image-wrapper img {
+	margin: 0 !important;
+}
+.ri-image-secondary {
+	width: 260px !important;
+}
+/* for visual settings preview */
+.ri-img-left {
+	float: left;
+}

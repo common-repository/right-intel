@@ -1,0 +1,11 @@
+.ri-feed-article {
+	clear: both;
+}
+.ri-feed-image {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.ri-feed-headline {
+	font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.ri-bubble:before {
+    background: url("RI_DOMAIN/blog-bubble.php?color=color_bubble_url") no-repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: -14px;
+    width: 608px;
+}
+.ri-bubble {
+	-webkit-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+    margin: 29px 0 35px !important;
+    padding: 0 22px !important;
+    width: 564px !important;
+}
+.ri-bubble:after {
+    background: url("RI_DOMAIN/blog-bubble.php?color=color_bubble_url") no-repeat scroll 0 100% transparent;
+	left: 0;
+    bottom: -30px;
+    height: 30px;
+    width: 608px;
+}

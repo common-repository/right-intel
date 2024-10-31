@@ -1,0 +1,79 @@
+.wp-list-instances.widefat {
+	width: auto;
+}
+.wp-list-instances.widefat td,
+.wp-list-instances.widefat thead tr th {
+	padding: 7px 20px;
+}
+#menu-settings a[href*="sharpr_settings"],
+#menu-settings a[href*="sharpr_settings"]:hover {
+	background-image: url(../img/logo-r-16.png);
+	background-repeat: no-repeat;
+	background-position: 92% 50%;
+}
+.icon-ri-logo {
+	float: left;
+	width: 97px;
+	height: 38px;
+	background: url(../img/logo-small.png) no-repeat 0 0;
+	margin-right: 8px;
+}
+#RiSettings .button-primary {
+	margin-top: 10px;
+}
+.ri-form {
+	padding-bottom: 20px;
+}
+.ri-form fieldset {
+	padding: 8px 15px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+.ri-form legend {
+	font-size: 1.3em;
+	color: #222;
+	font-weight: bold;	
+}
+#RiSettings {
+	min-width: 1010px;
+}
+#FormStylingOptions.ri-form label {
+	width: 125px;
+	display: inline-block;
+}
+#FormStylingOptions.ri-form select,
+#FormStylingOptions.ri-form input[type=text] {
+	width: 320px;
+	display: inline-block;
+	margin: 0;
+}
+.ri-preview-wrapper {
+	float: right;
+	margin-left: 25px;
+}
+.ri-preview-wrapper h3 {
+	margin: 0;
+}
+#FramePostPreview {
+	width: 628px;
+	height: 550px;
+	border: none;
+	background-color: transparent;
+}
+.ri-admin-section {
+	clear: both;
+	padding: 15px 0 24px 0;
+	border-top: 1px solid #ccc;
+}
+.ri-h3 {
+	padding-top: 19px;
+}
+.ri-list-table tbody tr:nth-child(2n+1) {
+	background-color: #f9f9f9;
+}
+.ri-list-table tbody td {
+	border-top: 1px solid #eee;
+}
+.ri-list-table tbody tr:first-child td {
+	border-top: none;
+}

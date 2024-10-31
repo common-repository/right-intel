@@ -1,0 +1,18 @@
+.ri-bubble {
+    background-color: color_bubble;
+    color: color_text !important;
+    font-family: font_face !important;
+	font-size: 20px !important;
+	line-height: 1.25 !important;
+    position: relative !important;
+	display: block !important;
+}
+.ri-bubble:after {
+    content: "";
+    display: block;
+    position: absolute;    
+}
+.mce-content-body .ri-bubble,
+.mceContentBody .ri-bubble {
+	margin-top: 3px !important;
+}

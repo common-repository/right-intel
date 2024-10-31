@@ -1,0 +1,26 @@
+.ri-bubble {
+    background: color_bubble !important;
+    color: color_text !important;
+    position: relative !important;
+    text-align: left !important;
+    border-radius: 15px !important;
+    font-family: font_face !important;
+	font-size: 20px !important;
+	line-height: 1.25 !important;
+    margin: 15px 0 21px !important;
+    padding: 14px 22px !important;
+}
+.ri-bubble:after {
+    border-color: color_bubble transparent transparent;
+    border-style: solid;
+    border-width: 24px 25px 0 0;
+    bottom: -22px;
+    content: "";
+    right: 40px;
+    -webkit-transform: rotate(17deg);
+    -webkit-transform-origin: 100% 0 0;	
+    transform: rotate(17deg);
+    transform-origin: 100% 0 0;
+    width: 0;
+    z-index: 2;
+}
